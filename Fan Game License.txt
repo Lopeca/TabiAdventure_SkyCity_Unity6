@@ -1,0 +1,476 @@
+본 라이선스는 GPT의 도움을 받아 작성되었습니다.
+주요 저작권 관련 소재에 대해서는 스텔라이브 본사의 방침이 우선합니다.
+
+This license was created with the assistance of GPT.
+The policies and guidelines of STELLIVE, as the primary rights holder of the relevant intellectual property, take precedence over this license where applicable.
+
+====================================================
+
+FAN GAME SOURCE LICENSE
+팬게임 소스 라이선스
+
+Copyright (c) 2026 Lopeca
+
+This license applies to the original source code and original assets
+created by the copyright holder of this project.
+
+본 라이선스는 본 프로젝트의 저작권자가 직접 제작한 원본 소스 코드
+및 원본 리소스에 적용됩니다.
+
+
+============================================================
+한국어
+============================================================
+
+1. 목적 및 적용 범위
+
+본 프로젝트는 스텔라이브를 소재로 제작된 비공식 팬게임입니다.
+
+본 라이선스는 본 프로젝트의 저작권자가 직접 제작하여 저작권을
+보유하는 소스 코드, 그래픽, 이미지, 데이터, 설정 및 기타 원본
+리소스에 적용됩니다.
+
+본 프로젝트에 포함되었거나 프로젝트와 함께 배포되는 제3자의
+코드, 사운드 효과, 음악, 이미지, 폰트, 상표, 캐릭터, 로고 및
+기타 지적재산에는 본 라이선스가 적용되지 않습니다.
+
+제3자 저작물은 각각의 저작권자 또는 권리자가 정한 라이선스,
+이용 조건 및 허가 절차를 따릅니다.
+
+
+2. 비상업적 이용
+
+본 라이선스의 적용을 받는 원본 소스 코드 및 원본 리소스는
+비상업적인 목적으로 자유롭게 이용할 수 있습니다.
+
+여기에는 다음의 이용이 포함됩니다.
+
+- 개인적인 이용
+- 학습 및 연구
+- 소스 코드의 열람 및 연구
+- 비상업적인 프로젝트 제작
+- 비상업적인 수정 및 개작
+- 비상업적인 2차 창작
+- 비상업적인 복제 및 배포
+- 팬 콘텐츠 제작
+
+이러한 이용에는 본 프로젝트 저작권자의 별도 허가가 필요하지
+않습니다.
+
+
+3. 방송, 스트리밍 및 영상 콘텐츠
+
+본 프로젝트를 플레이하거나 본 프로젝트를 소재로 방송, 스트리밍,
+동영상 및 기타 콘텐츠를 제작하고 공개하는 것은 허용됩니다.
+
+해당 콘텐츠에서 수익이 발생하더라도 이는 본 라이선스에서
+금지하는 상업적 이용으로 간주하지 않습니다.
+
+여기에는 다음과 같은 수익이 포함됩니다.
+
+- YouTube 등의 광고 수익
+- 스트리밍 플랫폼의 광고 수익
+- 구독 수익
+- 후원 및 도네이션
+- 플랫폼의 파트너 또는 크리에이터 프로그램 수익
+- 기타 일반적인 방송 및 영상 콘텐츠 수익
+
+즉, 제3자가 본 프로젝트를 플레이하여 방송하거나 영상을 제작하고
+그 콘텐츠를 통해 수익을 얻는 것은 허용됩니다.
+
+단순한 게임플레이 방송 및 영상 콘텐츠의 수익화와, 본 프로젝트의
+소스 코드 또는 원본 리소스를 이용하여 별도의 상업적 제품이나
+서비스를 제작하는 것은 서로 다른 행위로 취급됩니다.
+
+
+4. 상업적 이용의 제한
+
+본 라이선스는 제3자가 본 프로젝트의 원본 소스 코드 또는 원본
+리소스를 이용하여 상업적 제품이나 서비스를 제작하거나 판매하는
+것을 허용하지 않습니다.
+
+저작권자의 별도 서면 허가가 없는 한 다음과 같은 행위는 본
+라이선스의 허용 범위에 포함되지 않습니다.
+
+- 본 프로젝트의 소스 코드를 이용한 상업용 게임 제작
+- 본 프로젝트의 원본 리소스를 이용한 상업용 게임 또는 프로그램 제작
+- 본 프로젝트의 원본 리소스 자체 또는 이를 실질적으로 포함한
+  파일의 판매
+- 본 프로젝트의 원본 리소스를 상업적 상품에 사용하는 행위
+- 본 프로젝트의 원본 코드 또는 리소스를 상업적 서비스에
+  포함하는 행위
+- 본 프로젝트를 기반으로 제작한 게임 또는 프로그램을 판매하는 행위
+- 본 프로젝트의 원본 리소스를 이용한 상품화 또는 굿즈 제작 및 판매
+- 본 프로젝트의 원본 리소스를 상업적 목적으로 재배포하는 행위
+
+이 제한은 본 프로젝트를 플레이하거나 이를 소재로 제작한
+방송·영상 콘텐츠의 일반적인 수익화에는 적용되지 않습니다.
+
+
+5. 방송인 및 관련 권리자의 권리
+
+본 프로젝트는 스텔라이브를 소재로 한 팬게임이며,
+프로젝트의 일부 요소는 해당 방송인, 소속 회사 또는 기타
+관련 권리자의 지적재산과 관련될 수 있습니다.
+
+본 라이선스는 해당 방송인, 방송인이 소속된 회사 또는 조직,
+그리고 기타 관련 권리자가 보유하는 어떠한 저작권, 상표권,
+퍼블리시티권, 캐릭터 관련 권리, 기타 지적재산권 또는 상업적
+권리를 양도하거나 허가하는 것을 목적으로 하지 않습니다.
+
+또한 본 라이선스는 그러한 권리를 대신하여 제3자에게 허가를
+부여하는 것도 아닙니다.
+
+해당 방송인, 소속 회사 또는 기타 관련 권리자가 본 프로젝트의
+소스 코드 또는 본 라이선스가 적용되는 원본 리소스를 이용하는
+경우, 그러한 이용은 본 라이선스에 의해 제한되지 않습니다.
+
+다만 해당 방송인, 소속 회사 또는 기타 관련 권리자의 이름,
+이미지, 캐릭터, 로고, 상표, 음악, 콘텐츠 및 기타 지적재산을
+이용하는 행위에는 해당 권리자가 별도로 정한 이용 조건이나
+허가 절차가 적용될 수 있습니다.
+
+본 라이선스는 그러한 제3자 지적재산에 대한 이용 허가를
+부여하지 않습니다.
+
+
+6. 팬게임 및 2차 창작
+
+본 프로젝트의 소스 코드와 원본 리소스를 이용하여 비상업적인
+팬게임 또는 2차 창작물을 제작하는 것은 허용됩니다.
+
+수정된 소스 코드 또는 이를 기반으로 제작된 비상업적인 결과물을
+배포하는 것도 허용됩니다.
+
+다만 본 프로젝트와 관련된 방송인, 캐릭터, 로고, 상표 및 기타
+제3자의 지적재산을 포함하는 경우, 해당 지적재산에 적용되는
+별도의 권리와 이용 조건을 준수해야 합니다.
+
+본 라이선스는 그러한 제3자 지적재산에 대한 권리를 부여하지
+않습니다.
+
+
+7. 출처 표시
+
+본 프로젝트의 원본 소스 코드 또는 원본 리소스를 재배포하거나
+이를 포함하는 비상업적인 프로젝트를 배포하는 경우, 본 프로젝트와
+원저작자를 적절하게 표시해 주시기 바랍니다.
+
+가능한 경우 다음과 같은 형태의 출처 표시를 권장합니다.
+
+"This project contains original source code/assets from
+TabiAdventure_SkyCity by Lopeca."
+
+개인적인 이용 및 일반적인 게임플레이 방송·영상에는 별도의
+출처 표시를 요구하지 않습니다.
+
+
+8. 제3자 리소스
+
+본 프로젝트에는 저작권자가 직접 제작하지 않은 제3자 리소스가
+포함될 수 있습니다.
+
+예를 들어 다음과 같은 리소스가 포함될 수 있습니다.
+
+- 사운드 효과
+- 음악
+- 폰트
+- 이미지
+- 텍스처
+- 코드
+- 라이브러리
+- 기타 제3자 저작물
+
+이러한 리소스에는 본 라이선스가 적용되지 않으며, 해당 리소스의
+원저작자가 정한 라이선스 및 이용 조건이 우선합니다.
+
+제3자 리소스를 별도의 프로젝트에 재사용하거나 재배포하는 경우,
+해당 리소스의 원래 라이선스를 확인하고 준수해야 합니다.
+
+본 프로젝트의 저작권자는 제3자 리소스에 대한 추가적인 이용
+권한을 부여할 수 없습니다.
+
+
+9. 상표 및 지적재산
+
+본 프로젝트에 등장하거나 언급되는 방송인, 회사, 브랜드,
+캐릭터, 로고, 상표, 음악 및 기타 지적재산은 해당 권리자의
+소유일 수 있습니다.
+
+본 라이선스에 따라 본 프로젝트의 소스 코드 또는 원본 리소스를
+이용할 수 있다는 사실만으로 해당 지적재산에 대한 소유권이나
+이용 권리가 부여되는 것은 아닙니다.
+
+특히 상업적 목적의 팬상품, 굿즈, 행사 판매, 광고, 브랜드 이용
+등에는 해당 지적재산의 권리자가 요구하는 별도의 허가가 필요할
+수 있습니다.
+
+이러한 이용에 관한 권리 및 허가 여부는 해당 권리자와 이용자
+사이에서 별도로 결정됩니다.
+
+
+10. 저작권 표시
+
+본 라이선스는 본 프로젝트의 저작권을 포기하거나 저작권을
+양도하는 것을 의미하지 않습니다.
+
+본 프로젝트의 원본 소스 코드 및 원본 리소스에 대한 저작권은
+각각의 저작권자에게 귀속됩니다.
+
+
+11. 보증 및 책임
+
+본 프로젝트는 "있는 그대로(AS IS)" 제공됩니다.
+
+법률이 허용하는 최대 범위 내에서, 저작권자는 본 프로젝트의
+사용으로 인해 발생하는 직접적 또는 간접적인 손해, 데이터 손실,
+오류, 서비스 중단 또는 기타 문제에 대해 책임을 지지 않습니다.
+
+본 프로젝트에 포함된 제3자 저작물의 이용 가능 여부에 대해서도
+저작권자는 별도의 보증을 하지 않습니다.
+
+
+12. 라이선스의 변경
+
+저작권자는 향후 프로젝트의 새로운 버전에 대해 본 라이선스의
+내용을 변경하거나 다른 라이선스를 적용할 수 있습니다.
+
+그러나 이미 본 라이선스에 따라 적법하게 취득한 권리는 별도의
+합의가 없는 한 해당 변경으로 소급하여 취소되지 않습니다.
+
+
+
+============================================================
+English
+============================================================
+
+FAN GAME SOURCE LICENSE
+
+Copyright (c) 2026 Lopeca
+
+
+1. Purpose and Scope
+
+This project is an unofficial fan game based on Stellive.
+
+This license applies to the source code, graphics, images, data,
+settings, and other original assets created and owned by the
+copyright holder of this project.
+
+Third-party code, sound effects, music, images, fonts, trademarks,
+characters, logos, and other intellectual property included in or
+distributed with this project are NOT covered by this license.
+
+Third-party materials remain subject to the licenses, terms of use,
+and permission requirements established by their respective
+copyright holders or rights holders.
+
+
+2. Non-Commercial Use
+
+The original source code and original assets covered by this license
+may be freely used for non-commercial purposes.
+
+Permitted uses include, but are not limited to:
+
+- Personal use
+- Learning and research
+- Reviewing and studying the source code
+- Creating non-commercial projects
+- Non-commercial modification and adaptation
+- Non-commercial derivative works
+- Non-commercial copying and redistribution
+- Creation of fan-made content
+
+No separate permission from the copyright holder of this project is
+required for these uses.
+
+
+3. Streaming and Video Content
+
+Playing this project, or creating and publicly distributing streams,
+broadcasts, videos, and other content based on this project, is
+permitted.
+
+The generation of revenue from such content does not constitute
+prohibited commercial use under this license.
+
+This includes, but is not limited to:
+
+- Advertising revenue from YouTube or similar platforms
+- Advertising revenue from streaming platforms
+- Subscription revenue
+- Donations and viewer support
+- Revenue from platform partner or creator programs
+- Other ordinary revenue generated from streaming and video content
+
+Accordingly, a third party may play this project, stream it, or
+create videos based on it and monetize that content.
+
+The ordinary monetization of gameplay streams and video content is
+treated separately from the creation of a separate commercial
+product or service using the source code or original assets of this
+project.
+
+
+4. Restrictions on Commercial Use
+
+This license does not permit third parties to use the original source
+code or original assets of this project to create or sell commercial
+products or services.
+
+Without separate written permission from the copyright holder, the
+following activities are outside the scope of this license:
+
+- Creating a commercial game using this project's source code
+- Creating a commercial game or program using the original assets
+- Selling the original assets themselves or files substantially
+  containing them
+- Using the original assets in commercial merchandise
+- Including the original source code or assets in a commercial
+  product or service
+- Selling a game or program based substantially on this project
+- Producing and selling merchandise or goods using the original assets
+- Redistributing the original assets for commercial purposes
+
+These restrictions do not apply to ordinary monetization of
+gameplay streams or video content based on this project.
+
+
+5. Rights of the Featured Streamer and Other Rights Holders
+
+This project is a fan game based on Stellive, and some
+elements of the project may relate to intellectual property owned
+or controlled by the Featured Streamer, their affiliated company,
+or other relevant rights holders.
+
+This license does not transfer, grant, or otherwise purport to
+authorize any copyright, trademark, publicity right, character right,
+intellectual property right, or other commercial right belonging to
+the Featured Streamer, their affiliated company or organization, or
+any other relevant rights holder.
+
+This license also does not purport to grant third parties permission
+to exercise such rights.
+
+If the Featured Streamer, their affiliated company, or another
+applicable rights holder uses the source code or original assets
+covered by this license, such use is not restricted by this license.
+
+However, the use of the Featured Streamer's name, image, character,
+logo, trademark, music, content, or other third-party intellectual
+property may remain subject to separate terms, permissions, or
+approval procedures established by the applicable rights holder.
+
+Nothing in this license grants permission to use such third-party
+intellectual property.
+
+
+6. Fan Games and Derivative Works
+
+Non-commercial fan games and derivative works based on this project's
+source code and original assets are permitted.
+
+Non-commercial distribution of modified source code or derivative
+works is also permitted.
+
+If a derivative work contains or uses intellectual property belonging
+to the Featured Streamer or another third party, the user must comply
+with any separate rights and terms applicable to that intellectual
+property.
+
+This license does not grant any rights to third-party intellectual
+property.
+
+
+7. Attribution
+
+When redistributing the original source code or original assets of
+this project, or distributing a non-commercial project containing
+them, users are requested to provide appropriate attribution to this
+project and its original author.
+
+Where practical, the following form of attribution is recommended:
+
+"This project contains original source code/assets from
+TabiAdventure by Lopeca."
+
+No separate attribution is required for personal use or ordinary
+gameplay streams and videos.
+
+
+8. Third-Party Materials
+
+This project may contain materials that were not created by the
+copyright holder.
+
+Examples include:
+
+- Sound effects
+- Music
+- Fonts
+- Images
+- Textures
+- Code
+- Libraries
+- Other third-party works
+
+Such materials are NOT covered by this license and remain subject to
+the licenses and terms established by their respective copyright
+holders.
+
+Anyone reusing or redistributing third-party materials from this
+project is responsible for reviewing and complying with their
+original licenses.
+
+The copyright holder of this project cannot grant additional rights
+to third-party materials that they do not own.
+
+
+9. Trademarks and Intellectual Property
+
+Streamers, companies, brands, characters, logos, trademarks, music,
+and other intellectual property appearing in or referenced by this
+project may be owned by their respective rights holders.
+
+The permission to use this project's source code or original assets
+under this license does not grant ownership of, or permission to use,
+such third-party intellectual property.
+
+In particular, commercial fan merchandise, goods, event sales,
+advertising, branding, or similar activities may require separate
+permission from the applicable rights holder.
+
+The rights and permissions for such activities are determined
+separately between the relevant rights holder and the person seeking
+to use the intellectual property.
+
+
+10. Copyright
+
+This license does not constitute a waiver or transfer of copyright.
+
+Copyright in the original source code and original assets remains
+with their respective copyright holders.
+
+
+11. Disclaimer
+
+THIS PROJECT IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
+
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE COPYRIGHT HOLDER SHALL
+NOT BE LIABLE FOR ANY DIRECT OR INDIRECT DAMAGES, DATA LOSS, ERRORS,
+SERVICE INTERRUPTIONS, OR OTHER DAMAGES ARISING FROM THE USE OF THIS
+PROJECT.
+
+THE COPYRIGHT HOLDER MAKES NO WARRANTY REGARDING THE AVAILABILITY
+OR PERMITTED USE OF THIRD-PARTY MATERIALS INCLUDED IN THIS PROJECT.
+
+
+12. Changes to This License
+
+The copyright holder may change this license or apply a different
+license to future versions of the project.
+
+However, rights already lawfully obtained under this license shall
+not be retroactively revoked by such changes unless otherwise agreed.
