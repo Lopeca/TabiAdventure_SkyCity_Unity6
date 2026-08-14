@@ -587,7 +587,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 1.3018608}
+  m_Offset: {x: 0, y: 1.320285}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -597,7 +597,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1.03, y: 2.6037216}
+  m_Size: {x: 1.03, y: 2.5668733}
   m_EdgeRadius: 0
 --- !u!1 &958258898
 GameObject:
@@ -608,6 +608,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 958258899}
+  - component: {fileID: 958258900}
   m_Layer: 0
   m_Name: Sensors
   m_TagString: Untagged
@@ -630,6 +631,26 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1685251298}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &958258900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 958258898}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 690dff2971aa05c49ac8846e3e558a4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GroundSensor
+  bodyCollider: {fileID: 731923819}
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 16384
+  castDistance: 0.05
+  sensorHeight: 0.02
+  skin: 0.01
+  groundCollider: {fileID: 0}
 --- !u!1 &1391376409
 GameObject:
   m_ObjectHideFlags: 0
@@ -672,7 +693,7 @@ GameObject:
   - component: {fileID: 1519376952}
   - component: {fileID: 1519376951}
   - component: {fileID: 1519376950}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -775,7 +796,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.5566038, g: 0.5566038, b: 0.5566038, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -812,6 +833,7 @@ GameObject:
   - component: {fileID: 1685251299}
   - component: {fileID: 1685251301}
   - component: {fileID: 1685251300}
+  - component: {fileID: 1685251302}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -877,9 +899,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9092d919e4cd37448190f4111973f0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
-  rb: {fileID: 1685251299}
+  jumpRequested: 0
+  dashRequested: 0
+  motor: {fileID: 1685251302}
   controllable: 1
-  moveSpeed: 5
 --- !u!114 &1685251301
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -922,7 +945,19 @@ MonoBehaviour:
     m_ActionId: 27c5f898-bc57-4ee1-8800-db469aca5fe3
     m_ActionName: 'Player/Crouch[/Keyboard/c]'
   - m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1685251300}
+        m_TargetAssemblyTypeName: PlayerController, Assembly-CSharp
+        m_MethodName: OnJump
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_ActionId: f1ba0d36-48eb-4cd5-b651-1c94a6531f70
     m_ActionName: 'Player/Jump[/Keyboard/space]'
   - m_PersistentCalls:
@@ -1014,6 +1049,23 @@ MonoBehaviour:
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!114 &1685251302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1685251297}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cd910b487de9394d876b0ec5f3fa84d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerMotor
+  rb: {fileID: 1685251299}
+  groundSensor: {fileID: 958258900}
+  moveSpeed: 5
+  acceleration: 50
+  jumpForce: 20
 --- !u!1 &1994972215
 GameObject:
   m_ObjectHideFlags: 0

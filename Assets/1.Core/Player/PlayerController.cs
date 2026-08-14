@@ -1,38 +1,49 @@
-using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
+public struct PlayerCommand
+{
+    // 지속되는 입력
+    public float Horizontal;
+    public bool Run;
+    public bool DownKeyHeld;
+    public bool DashKeyHeld;
+
+    // 이번 틱에 발생한 입력
+    public bool JumpPressed;
+}
 public class PlayerController : MonoBehaviour
 {
     private bool leftHeld;
     private bool rightHeld;
 
-    private int horizontalDirection;
-
+    private PlayerCommand playerCommand;
+    
     [Header("참조")] 
-    [SerializeField] private Rigidbody2D rb;
+    [SerializeField] PlayerMotor motor;
     
     
     [SerializeField] private bool controllable;
-    [SerializeField] private float moveSpeed;
     private void FixedUpdate()
     {
-        // 상태를 확정짓는 작업 한번 하고 들어가야할 수 있음
-        HandleInput();
-    }
-
-    private void HandleInput()
-    {
         if (!controllable) return;
+        
+        motor.Move(playerCommand);
 
-        rb.linearVelocityX = moveSpeed * horizontalDirection;
+        if (playerCommand.JumpPressed)
+        {
+            motor.Jump();
+        }
+        playerCommand.JumpPressed = false;
+
         SpriteFlipToLookDirection();
     }
+    
 
     private void SpriteFlipToLookDirection()
     {
-        if(horizontalDirection > 0) transform.localScale = new Vector3(1, 1, 1);
-        if(horizontalDirection < 0) transform.localScale = new Vector3(-1, 1, 1);
+        if(playerCommand.Horizontal > 0) transform.localScale = new Vector3(1, 1, 1);
+        if(playerCommand.Horizontal < 0) transform.localScale = new Vector3(-1, 1, 1);
     }
 
     public void OnLeft(InputAction.CallbackContext ctx)
@@ -40,16 +51,16 @@ public class PlayerController : MonoBehaviour
         if (ctx.started)
         {
             leftHeld = true;
-            horizontalDirection = -1;
+            playerCommand.Horizontal = -1;
         }
         else if (ctx.canceled)
         {
             leftHeld = false;
 
             if (rightHeld)
-                horizontalDirection = 1;
+                playerCommand.Horizontal = 1;
             else
-                horizontalDirection = 0;
+                playerCommand.Horizontal = 0;
         }
     }
 
@@ -58,16 +69,24 @@ public class PlayerController : MonoBehaviour
         if (ctx.started)
         {
             rightHeld = true;
-            horizontalDirection = 1;
+            playerCommand.Horizontal = 1;
         }
         else if (ctx.canceled)
         {
             rightHeld = false;
 
             if (leftHeld)
-                horizontalDirection = -1;
+                playerCommand.Horizontal = -1;
             else
-                horizontalDirection = 0;
+                playerCommand.Horizontal = 0;
+        }
+    }
+
+    public void OnJump(InputAction.CallbackContext ctx)
+    {
+        if (ctx.started)
+        {
+            playerCommand.JumpPressed = true;
         }
     }
 }
